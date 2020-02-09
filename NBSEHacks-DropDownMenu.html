@@ -3,188 +3,209 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>4Tips - Black hair empowerment</title>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>4Tips - Black hair empowerment</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 
 <!-- CSS -->
 <style>
-	.center {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
+    .center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img {
+        width: 50%;
+        height: auto;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: [xl-start] 1fr 1.5rem [md-start] minmax(0, 624px) [md-end] 1.5rem 1fr [xl-end];
+    }
+
+    .grid * {
+        grid-column: md;
+    }
 </style>
 
 <!-- Insert JavaScript! -->
 <script>
-	(function () {
-		let burger = document.querySelector('.burger');
-		let nav = document.querySelector('#' + burger.dataset.target);
+    (function () {
+        let burger = document.querySelector('.burger');
+        let nav = document.querySelector('#' + burger.dataset.target);
 
-		burger.addEventListener('click', function () {
-			burger.classList.toggle('is-active');
-			nav.classList.toggle('is-active');
-		});
-	})();
+        burger.addEventListener('click', function () {
+            burger.classList.toggle('is-active');
+            nav.classList.toggle('is-active');
+        });
+    })();
 </script>
 
 <!-- Hero -->
 
 <body>
-	<section class="hero is-warning">
-		<div class="hero-head">
-			<nav class="navbar is-warning" role="navigation" aria-label="main navigation">
-				<div class="navbar-brand">
-					<a class="navbar-item" href="#">
-						<img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-					</a>
+    <nav class="navbar is-transparent is-boxed is-hoverable is-warning">
+        <div class="container">
+            <!-- Nav bar -->
+            <div class="navbar-brand">
+                <a href="#" class="navbar-item">
+                    <h1 class="title is-large"><strong>4Tips</strong></h1>
+                </a>
 
-					<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-						data-target="navbarBasicExample">
-						<span aria-hidden="true"></span>
-						<span aria-hidden="true"></span>
-						<span aria-hidden="true"></span>
-					</a>
-				</div>
+                <a role="button" class="navbar-burger burger" aria-label="menu" data-target="navMenu"
+                    aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
 
-				<div id="navbarBasicExample" class="navbar-menu">
-					<div class="navbar-start">
-						<a class="navbar-item">
-							Home
-						</a>
+            <div id="navMenu" class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="#" class="navbar-item is-active">
+                        Home
+                    </a>
 
-						<a class="navbar-item">
-							Mission
-						</a>
+                    <a href="#" class="navbar-item">
+                        Mission
+                    </a>
 
-						<a class="navbar-item">
-							Contact
-						</a>
+                    <a href="#" class="navbar-item">
+                        Contact
+                    </a>
+                </div>
+            </div>
 
-						<!-- <div class="navbar-dropdown">
-							<a class="navbar-item">
-								About
-							</a>
-							<a class="navbar-item">
-								Jobs
-							</a>
-							<a class="navbar-item">
-								Contact
-							</a>
-							<hr class="navbar-divider">
-							<a class="navbar-item">
-								Report an issue
-							</a>
-						</div>
-					</div> -->
-					</div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-black">
+                            <strong>Sign up</strong>
+                        </a>
+                        <a class="button is-light">
+                            Log in
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-					<div class="navbar-end">
-						<div class="navbar-item">
-							<div class="buttons">
-								<a class="button is-black">
-									<strong>Sign up</strong>
-								</a>
-								<a class="button is-light">
-									Log in
-								</a>
-							</div>
-						</div>
-					</div>
-			</nav>
-		</div>
-	</section>
-
-	<div class="hero-body">
-		<div class="container">
-			<div class="columns">
-
-				<div class="column">
-					<h1 class="title is-large align-left">
-						4Tips
-					</h1>
-					<div class="container" width="25">
-						<h2 class="subtitle align-left">
-							We exist to support the Black community and more specifically, Black women. Black hair styling and care
-							has a prominent role in the African/Black Diaspora as a source of self-identification.
-						</h2>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</div>
+        </div>
+    </nav>
+    <br>
+    <div class="container grid">
+        <h1 class=" has-text-centered title is-large align-left">
+            4Tips
+        </h1>
+        <br>
+        <div class="container grid">
+            <h2 class="subtitle align-left">
+                We exist to support the Black community and more specifically, Black women. Black hair
+                styling and care
+                has a prominent role in the African/Black Diaspora as a source of self-identification.
+            </h2>
+            <br>
+        </div>
+        <figure class="image is-4by3">
+            <img src="./4Tips.png">
+        </figure>
+    </div>
 
 
-	<section class="container">
-		<div class="card is-half">
-			<div class="card-content">
+    <section class="container grid">
+        <div class="card is-half">
+            <div class="card-content">
 
-				<!-- hover dropdown -->
-				<div class="dropdown is-hoverable is-pulled-right">
-					<div class="dropdown-trigger">
-						<button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
-							<span>Please select</span>
-							<span class="icon is-small">
-								<i class="fas fa-angle-down" aria-hidden="true"></i>
-							</span>
-						</button>
-					</div>
-					<div class="dropdown-menu" id="dropdown-menu4" role="menu">
-						<div class="dropdown-content">
-							<a class="dropdown-item">
-								<p>Insert any content!</p>
-							</a>
-							<a class="dropdown-item">
-								<p>Insert any content!</p>
-							</a>
-							<a class="dropdown-item">
-								<p>Insert any content!</p>
-							</a>
-						</div>
-					</div>
-				</div>
-				<p class="subtitle">Please select your hair type</p>
-				<div class="align-right">
-				</div>
+                <!-- hover dropdown -->
+                <div class="dropdown is-hoverable is-pulled-right">
+                    <div class="dropdown-trigger">
+                        <button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
+                            <span>Please select</span>
+                            <span class="icon is-small">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+                        <div class="dropdown-content">
+                            <a class="dropdown-item">
+                                <p>Insert any content!</p>
+                            </a>
+                            <a class="dropdown-item">
+                                <p>Insert any content!</p>
+                            </a>
+                            <a class="dropdown-item">
+                                <p>Insert any content!</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <p class="subtitle">Please select your hair type</p>
+                <div class="align-right">
+                </div>
 
-				<!-- radio button -->
-				<div class="control">
-					<label class="radio">
-						<input type="radio" name="answer">
-						4a
-					</label>
-					<label class="radio">
-						<input type="radio" name="answer">
-						4b
-					</label>
-					<label class="radio">
-						<input type="radio" name="answer">
-						4c
-					</label>
-				</div>
-			</div>
-		</div>
-	</section>
-	<br>
+                <!-- radio button -->
+                <div class="field is-centered">
+                    <p class="control">
+                        <button class="button">4a</button>
+                        <button class="button">4b</button>
+                        <button class="button">4c</button>
+                        <!-- <input class="button" type="submit" value="4c"> -->
+                </div>
 
+            </div>
+        </div>
+    </section>
+    <br>
 
-	<section class="container center">
-		<p class="has-text-dark has-text-centered">
-			We strive to enhance access to hair products and hair care tips for Black women and the overall Black community.
-		</p>
-	</section>
+    <div class="container grid">
+        <section class="container">
+            <nav class="center">
+                <span class="has-text-dark has-text-centered" style="padding-top: 0%;">
+                    We strive to enhance access to hair products and hair care tips for Black women and the overall
+                    Black
+                    community.
+                </span>
+            </nav>
+            <br>
+            <div class="content is-medium padding-top: 0%;">
+                <p class="title has-text-centered is-size-4">Mission</p>
+                <p class="content is-medium">
+                    Our cause is to find out what current issues reside in Black, particularly, Black female communities
+                    hair care (as
+                    related to identity) and representation in a predominantly Eurocentric society.
+                    Black natural hair vloggers offer empowerment centering around hair care and self-identity in the
+                    Black
+                    community
+                    Provide a way to put forth own narrative and lived experience within a largely Eurocentric-dominant
+                    society. <span>(Neil & Mbilishaka, 2019)</span>
 
-	</div>
-	</div>
-	</section>
+                </p>
+                <p class="content is-medium padding-top: 0%;">
+                    Qualitative research in African/Black Diaspora on topic of hair and the meaning of Black hair to
+                    Black
+                    identity found
+                    that among Black women, many don’t meet the recommended physical activity level (150 mins/week) due
+                    to
+                    issues with hair
+                    maintenance and care. Given our knowledge of physical activity’s health benefits, this is an
+                    important
+                    yet untalked
+                    (reword) about topic. <span>(Versey, 2014)</span>
+                    “Across African Diaspora, hair is synonymous with identity” - Teteh et al (2019)
+                    Due to specific needs for hair care, hair products often contain a lot of endocrine-disrupting
+                    chemicals
+                    (EDCs)- harms
+                    health (may increase breast cancer risk). <span>(Teteh et al., 2019)</span>
 
-
-	</div>
+                </p>
+            </div>
+        </section>
+    </div>
 </body>
 
 </html>
