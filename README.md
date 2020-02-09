@@ -1,7 +1,7 @@
 # 4Tips
 
-Hackathon: National Society of Black Engineers) NSBEHacks UofT Chapter 2020
-University of Toronto, St. George campus
+- Hackathon: National Society of Black Engineers) NSBEHacks UofT Chapter 2020
+- University of Toronto, St. George campus
 
 4Tips is a web-based integrated resource for the Black community, particularly catering to the female natural hair community within - we offer a resource for different curl types and tailored hair care tips. In our literature review of University of Toronto's Gerstein Science Information Centre database (provider is Summon), we used the keywords "Black community", "hair care", and "black hair" to query the database. Journal articles were pulled from SAGE publications' Journal of Black Studies, The American Journal of Public Health, and PloS One. Journal articles were primarily multidisciplinary and qualitative in nature.
 
