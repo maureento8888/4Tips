@@ -13,9 +13,9 @@ Our review showed that Black women require hair care needs that vary widely and 
 
 
 #### References:
-- Neil, L., & Mbilishaka, A. (2019). “Hey Curlfriends!”: Hair care and self-care messaging on YouTube by Black women natural hair vloggers. Journal of Black Studies, 50(2), 156–177. https://doi-org.myaccess.library.utoronto.ca/10.1177/0021934718819411
-- Versey H. S. (2014). Centering perspectives on Black women, hair politics, and physical activity. American journal of public health, 104(5), 810–815. https://dx.doi.org/10.2105%2FAJPH.2013.301675
-- Teteh D, Ericson M, Monice S, Dawkins-Moultin L, Bahadorani N, et al. (2019). The Black identity, hair product use, and breast cancer scale. PLOS ONE 14(12): e0225305. https://doi-org.myaccess.library.utoronto.ca/10.1371/journal.pone.0225305
+- Neil, L., & Mbilishaka, A. (2019). “Hey Curlfriends!”: Hair care and self-care messaging on YouTube by Black women natural hair vloggers. *Journal of Black Studies, 50*(2), 156–177. https://doi-org.myaccess.library.utoronto.ca/10.1177/0021934718819411
+- Versey H. S. (2014). Centering perspectives on Black women, hair politics, and physical activity. *American journal of public health, 104*(5), 810–815. https://dx.doi.org/10.2105%2FAJPH.2013.301675
+- Teteh D, Ericson M, Monice S, Dawkins-Moultin L, Bahadorani N, et al. (2019). The Black identity, hair product use, and breast cancer scale. *PLOS ONE 14*(12), e0225305. https://doi-org.myaccess.library.utoronto.ca/10.1371/journal.pone.0225305
 
 
 ## Getting Started
