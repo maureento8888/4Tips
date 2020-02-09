@@ -1,6 +1,6 @@
 # 4Tips
 
-When & Where
+### When and where:
 - Hackathon: National Society of Black Engineers) NSBEHacks UofT Chapter 2020
 - University of Toronto, St. George campus
 
