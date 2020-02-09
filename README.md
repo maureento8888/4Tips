@@ -19,7 +19,7 @@ Our review showed that Black women require hair care needs that vary widely and 
 
 
 ## Getting Started
-Given the intensive and innovative environment of a hackathon, we have not yet upgraded to a backend, with a potential for email subscription, url routing, and database.
+Given the intensive and innovative environment of a hackathon, we have not yet upgraded to a backend, with a potential for email subscription, url routing/endpoints, and database.
 
 Since the front end is largely built on Bulma CSS framework, you can directly clone or fork your version of the repo.
 
