@@ -10,7 +10,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 
-<!-- CSS -->
+<!-- Insert CSS -->
 <style>
     .center {
         display: flex;
@@ -44,18 +44,6 @@
             nav.classList.toggle('is-active');
         });
     })();
-</script>
-
-
-<!-- Chat UI - IBM Watson Assistant -->
-<script src=https://web-chat.assistant.watson.cloud.ibm.com/loadWatsonAssistantChat.js></script>
-<script>
-    window.loadWatsonAssistantChat({
-        integrationID: "0e59b055-369b-40f9-9c3d-9f54e93b70d2", // The ID of this integration.
-        region: "us-south" // The region your integration is hosted in.
-    }).then(function (instance) {
-        instance.render();
-    });
 </script>
 
 <!-- Hero -->
