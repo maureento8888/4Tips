@@ -29,9 +29,9 @@ Since the front end is largely built on Bulma CSS framework, you can directly cl
 n/a
 
 ## Authors & Contributors
-- @CarltonOsinde
-- @maureento8888
-- @leawangx
+- @CarltonOsinde - add personal info here!
+- @maureento8888 - self-taught, UofT
+- @leawangx - add personal info here!
 
 ## Inspiration
 - NSBE HACKS 2020!!!
