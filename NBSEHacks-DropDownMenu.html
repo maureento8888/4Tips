@@ -46,10 +46,22 @@
     })();
 </script>
 
+
+<!-- Chat UI - IBM Watson Assistant -->
+<script src=https://web-chat.assistant.watson.cloud.ibm.com/loadWatsonAssistantChat.js></script>
+<script>
+    window.loadWatsonAssistantChat({
+        integrationID: "0e59b055-369b-40f9-9c3d-9f54e93b70d2", // The ID of this integration.
+        region: "us-south" // The region your integration is hosted in.
+    }).then(function (instance) {
+        instance.render();
+    });
+</script>
+
 <!-- Hero -->
 
-<body>
-    <nav class="navbar is-transparent is-boxed is-hoverable is-warning">
+<body class="has-navbar-fixed-top">
+    <nav class="navbar is-transparent is-fixed-top is-hoverable is-warning">
         <div class="container">
             <!-- Nav bar -->
             <div class="navbar-brand">
@@ -133,13 +145,13 @@
                     <div class="dropdown-menu" id="dropdown-menu4" role="menu">
                         <div class="dropdown-content">
                             <a class="dropdown-item">
-                                <p>Insert any content!</p>
+                                <p>4a</p>
                             </a>
                             <a class="dropdown-item">
-                                <p>Insert any content!</p>
+                                <p>4b</p>
                             </a>
                             <a class="dropdown-item">
-                                <p>Insert any content!</p>
+                                <p>4c</p>
                             </a>
                         </div>
                     </div>
@@ -149,13 +161,13 @@
                 </div>
 
                 <!-- radio button -->
-                <div class="field is-centered">
+                <!-- <div class="field is-centered">
                     <p class="control">
                         <button class="button">4a</button>
                         <button class="button">4b</button>
                         <button class="button">4c</button>
-                        <!-- <input class="button" type="submit" value="4c"> -->
-                </div>
+                    </p>
+                    </div> -->
 
             </div>
         </div>
@@ -174,38 +186,64 @@
             <br>
             <div class="content is-medium padding-top: 0%;">
                 <p class="title has-text-centered is-size-4">Mission</p>
-                <p class="content is-medium">
+                <p class="subtitle content is-medium">
                     Our cause is to find out what current issues reside in Black, particularly, Black female communities
                     hair care (as
-                    related to identity) and representation in a predominantly Eurocentric society.
-                    Black natural hair vloggers offer empowerment centering around hair care and self-identity in the
-                    Black
-                    community. This provides a way for individuals to expand their own narrative and lived experience
-                    within a largely Eurocentric
-                    society. <span>(Neil & Mbilishaka, 2019)</span>
-
-                </p>
-                <p class="content is-medium padding-top: 0%;">
-                    Qualitative research in African/Black Diaspora on topic of hair and the meaning of Black hair to
-                    Black
-                    identity have found
-                    that many Black women particularly don’t meet the recommended physical activity levels (150
-                    mins/week) due
-                    to
-                    issues with hair
-                    maintenance and care. Given our knowledge of physical activity’s health benefits, this is an
-                    important
-                    yet unreferenced topic. <span>(Versey, 2014)</span>
-                    “Across African Diaspora, hair is synonymous with identity” - Teteh et al (2019)
-                    Due to specific needs for hair care, hair products often contain a lot of endocrine-disrupting
-                    chemicals
-                    (EDCs)- harms
-                    health (may increase breast cancer risk). <span>(Teteh et al., 2019)</span>
-
+                    related to identity) and representation in a predominantly Eurocentric society. We utilize the power
+                    of IBM Watson Assistant to cater to individual needs and provide tailored hair care tips and
+                    resources.
                 </p>
             </div>
+            <br>
         </section>
     </div>
+
+    <!-- /.section background -->
+    <section class="section container has-background-light">
+        <!-- Hero head: will stick at the top -->
+
+        <!-- Hero footer: will stick at the bottom -->
+        <div class="hero-foot has-background-light">
+            <!-- <nav class="tabs"> -->
+            <div class="container">
+                <div class="columns is-multiline">
+
+                    <div class="column">
+                        <h1 class="title is-size-5"><a href="#">Home</a></h1>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+
+                    <div class="column">
+                        <h1 class="title is-size-5">About</h1>
+                        <ul>
+                            <li>Our Mission</li>
+                            <li>Related News</li>
+                            <li>FAQ</li>
+                        </ul>
+                    </div>
+
+                    <div class="column">
+                        <h1 class="title is-size-5">Get in Touch</h1>
+                        <ul>
+                            <li>Request info</li>
+                            <li>Contact Us</li>
+                            <li>Privacy Policy</li>
+                            <li>Terms of Service</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
 </body>
 
 </html>
