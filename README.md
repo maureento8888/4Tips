@@ -37,5 +37,5 @@ n/a
 
 ## Inspiration
 - NSBE HACKS UofT Chapter 2020!!!
-- social good - contribute back to the community! As developers and people wokring in tech, we have immense power to make tech accessible and useful for a wide range of audiences. With this power, comes great reponsibility to consider how our products affect users!
+- Social good - contribute back to the community! As developers and people working in tech, we have immense power to make tech accessible and useful for a wide range of audiences. With this power comes great reponsibility to consider how our products affect users!
 - AMAZING food! Too bad I didn't get the name of the catering company :,(
