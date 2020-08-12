@@ -19,24 +19,23 @@ Our review showed that Black women require hair care needs that vary widely and 
 
 
 ## Getting Started
-Given the intensive and innovative environment of a hackathon, we have not yet upgraded to a backend, with a potential for email subscription, url routing/endpoints, and database.
+Given the intensive and innovative environment of a hackathon, we have not yet created a backend, email service, and routing. Rather, this is a stepping stone for further improvement on social issues throught the lens of tech.
 
 Since the front end is largely built on Bulma CSS framework, you can directly clone or fork your version of the repo.
 
 ### Built with:
 - Bulma CSS framework
 - HTML5/CSS3
-- front end framework?
 
 ## License
 n/a
 
 ## Authors & Contributors
-- @CarltonOsinde - add personal info here!
-- @maureento8888 - self-taught, UofT
-- @leawangx - add personal info here!
+- [@CarltonOsinde](https://github.com/CarltonOsinde)
+- [@maureento8888](https://github.com/maureento8888)
+- [@leawangx](https://github.com/leawangx)
 
 ## Inspiration
-- NSBE HACKS 2020!!!
-- social good (always!)
-- good food! :)
+- NSBE HACKS UofT Chapter 2020!!!
+- social good - contribute back to the community! As developers and people wokring in tech, we have immense power to make tech accessible and useful for a wide range of audiences. With this power, comes great reponsibility to consider how our products affect users!
+- AMAZING food! Too bad I didn't get the name of the catering company :,(
